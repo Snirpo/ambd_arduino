@@ -1589,7 +1589,7 @@ _WEAK void wifi_set_mib(void)
 	wext_set_support_wpa3(ENABLE);
 #endif	
 	wext_set_ant_div_gpio(0);
-    wext_set_bw40_enable(0);    //default disable 40m
+    wext_set_bw40_enable(1);    //default disable 40m
 }
 
 //----------------------------------------------------------------------------//
